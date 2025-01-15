@@ -52,7 +52,7 @@ dependencies {
 //    lifecycle runtime compose
     implementation(libs.androidx.lifecycle.runtime.compose)
 //    compose livedata
-    implementation("androidx.compose.runtime:runtime-livedata:1.7.6")
+    implementation(libs.androidx.runtime.livedata)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
